@@ -1,0 +1,43 @@
+section {
+  height: fit-content;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 2px;
+  grid-auto-rows: min-max(80px, auto);
+  grid-auto-flow: dense;
+}
+
+.card {
+  position: relative;
+  min-height: 400px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.card-content {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  background-color: #00000080;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content:hover {
+  opacity: 1;
+}
+
+.card:focus:has(.card-content) .card-content,
+.card:active:has(.card-content) .card-content {
+  opacity: 1;
+}
+
+.card-content:active,
+.card-content:focus {
+  opacity: 1;
+}

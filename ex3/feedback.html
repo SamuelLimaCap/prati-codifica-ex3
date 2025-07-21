@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Feedback</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="lista.html">Hobbies(lista)</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </nav>
+    <section>
+      <form>
+        <div class="input-group">
+          <label for="nome">nome</label>
+          <input type="text" name="name" value="" />
+        </div>
+        <div class="input-group">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" value="" />
+        </div>
+        <div class="input-group">
+          <label for="address">Endereço completo</label>
+          <input type="text" name="address" value="" />
+        </div>
+        <div class="input-group">
+          <label for="feedback-type">Tipo de feedback</label>
+          <select name="feedback-type">
+            <option value="positive" selected>Positivo</option>
+            <option value="negative">Negativo</option>
+          </select>
+        </div>
+        <div class="input-group">
+          <label for="feedback-message">Feedback</label>
+          <textarea name="feedback-message" rows="5" cols="10"></textarea>
+        </div>
+        <div class="input-group">
+          <button type="submit">Enviar feedback</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
