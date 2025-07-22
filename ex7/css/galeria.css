@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  color: #f4f4f4;
+  background-color: #202020;
+}
+
 section {
   height: fit-content;
 }

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   color: #f4f4f4;
+  background-color: #080808;
 }
 
 h1 {
@@ -17,7 +18,7 @@ p {
 
 header {
   padding: 40px 0;
-  background-color: #607cb4;
+  background-color: #100331;
   border: 2px solid #809cd4;
   margin: 2px;
 }
@@ -25,7 +26,8 @@ header {
 main {
   margin: 0;
   padding: 40px 0;
-  background-color: #559db6;
+  background-color: #100221;
+  /* background-color: #559db6; */
   min-height: 60vh;
 
   border: 2px solid #77add6;
@@ -33,7 +35,7 @@ main {
 }
 
 footer {
-  background-color: #86a951;
+  background-color: #100821;
   border: 2px solid #a6c971;
   padding: 2px;
   margin: 2px;

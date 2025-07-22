@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  color: #f4f4f4;
+  background-color: #202020;
+}
+
+section {
+  border: 1px solid gray;
+  margin-block: 20px;
+  padding-inline: 20px;
+}
+
+section > h2 {
+  text-align: center;
+}
